@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		263EF11122F7EB0900D44499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EF10F22F7EB0900D44499 /* Main.storyboard */; };
 		263EF11322F7EB0900D44499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263EF11222F7EB0900D44499 /* Assets.xcassets */; };
 		263EF11622F7EB0900D44499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EF11422F7EB0900D44499 /* LaunchScreen.storyboard */; };
-		265A6F2022F84033009729B2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265A6F1F22F84033009729B2 /* Alamofire.framework */; };
 		64B0099CB111DA7094122E5B /* Pods_AzureTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B97B6928325597A4CA3313 /* Pods_AzureTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				265A6F2022F84033009729B2 /* Alamofire.framework in Frameworks */,
 				64B0099CB111DA7094122E5B /* Pods_AzureTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
