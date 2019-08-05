@@ -7,5 +7,7 @@ target 'AzureTest' do
 
   # Pods for AzureTest
 pod 'Alamofire'
+pod 'AppCenter'
+
 
 end
