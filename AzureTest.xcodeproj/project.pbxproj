@@ -85,7 +85,6 @@
 				251EFFC7CD2EEDA1712E23DE /* Pods-AzureTest.debug.xcconfig */,
 				C95A07F495CC2936B40F28FB /* Pods-AzureTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -364,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Test.AzureTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VF.azuretest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,7 +382,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Test.AzureTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VF.azuretest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
