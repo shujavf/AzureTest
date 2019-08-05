@@ -21,6 +21,6 @@ steps:
     actions: 'build'
     scheme: 'AzureTest'
     sdk: 'iphoneos'
-    configuration: 'Debug'
+    configuration: 'Release'
 #    xcodeVersion: '10'
     xcWorkspacePath: 'AzureTest.xcworkspace'
