@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		263EF11122F7EB0900D44499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EF10F22F7EB0900D44499 /* Main.storyboard */; };
 		263EF11322F7EB0900D44499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263EF11222F7EB0900D44499 /* Assets.xcassets */; };
 		263EF11622F7EB0900D44499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EF11422F7EB0900D44499 /* LaunchScreen.storyboard */; };
+		265A6F2022F84033009729B2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265A6F1F22F84033009729B2 /* Alamofire.framework */; };
 		64B0099CB111DA7094122E5B /* Pods_AzureTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B97B6928325597A4CA3313 /* Pods_AzureTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		263EF11222F7EB0900D44499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263EF11522F7EB0900D44499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263EF11722F7EB0900D44499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265A6F1F22F84033009729B2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B97B6928325597A4CA3313 /* Pods_AzureTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95A07F495CC2936B40F28FB /* Pods-AzureTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureTest.release.xcconfig"; path = "Target Support Files/Pods-AzureTest/Pods-AzureTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265A6F2022F84033009729B2 /* Alamofire.framework in Frameworks */,
 				64B0099CB111DA7094122E5B /* Pods_AzureTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +46,7 @@
 		03EC1ACD07A8B9C233469698 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				265A6F1F22F84033009729B2 /* Alamofire.framework */,
 				69B97B6928325597A4CA3313 /* Pods_AzureTest.framework */,
 			);
 			name = Frameworks;
@@ -99,7 +103,6 @@
 				263EF10422F7EB0900D44499 /* Sources */,
 				263EF10522F7EB0900D44499 /* Frameworks */,
 				263EF10622F7EB0900D44499 /* Resources */,
-				6776D3FFFFDA8BC2A0E41936 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,23 +160,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6776D3FFFFDA8BC2A0E41936 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AzureTest/Pods-AzureTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AzureTest/Pods-AzureTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzureTest/Pods-AzureTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B5CF50BA6912F16926A3EEDB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
