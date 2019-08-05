@@ -12,9 +12,11 @@
 		263EF11122F7EB0900D44499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EF10F22F7EB0900D44499 /* Main.storyboard */; };
 		263EF11322F7EB0900D44499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263EF11222F7EB0900D44499 /* Assets.xcassets */; };
 		263EF11622F7EB0900D44499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EF11422F7EB0900D44499 /* LaunchScreen.storyboard */; };
+		64B0099CB111DA7094122E5B /* Pods_AzureTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B97B6928325597A4CA3313 /* Pods_AzureTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251EFFC7CD2EEDA1712E23DE /* Pods-AzureTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureTest.debug.xcconfig"; path = "Target Support Files/Pods-AzureTest/Pods-AzureTest.debug.xcconfig"; sourceTree = "<group>"; };
 		263EF10822F7EB0900D44499 /* AzureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263EF10B22F7EB0900D44499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		263EF10D22F7EB0900D44499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		263EF11222F7EB0900D44499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263EF11522F7EB0900D44499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		263EF11722F7EB0900D44499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B97B6928325597A4CA3313 /* Pods_AzureTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95A07F495CC2936B40F28FB /* Pods-AzureTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureTest.release.xcconfig"; path = "Target Support Files/Pods-AzureTest/Pods-AzureTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B0099CB111DA7094122E5B /* Pods_AzureTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03EC1ACD07A8B9C233469698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B97B6928325597A4CA3313 /* Pods_AzureTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		263EF0FF22F7EB0900D44499 = {
 			isa = PBXGroup;
 			children = (
 				263EF10A22F7EB0900D44499 /* AzureTest */,
 				263EF10922F7EB0900D44499 /* Products */,
+				BE1F1ABBD199E1916EF145D3 /* Pods */,
+				03EC1ACD07A8B9C233469698 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,16 @@
 			path = AzureTest;
 			sourceTree = "<group>";
 		};
+		BE1F1ABBD199E1916EF145D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				251EFFC7CD2EEDA1712E23DE /* Pods-AzureTest.debug.xcconfig */,
+				C95A07F495CC2936B40F28FB /* Pods-AzureTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 263EF11A22F7EB0900D44499 /* Build configuration list for PBXNativeTarget "AzureTest" */;
 			buildPhases = (
+				B5CF50BA6912F16926A3EEDB /* [CP] Check Pods Manifest.lock */,
 				263EF10422F7EB0900D44499 /* Sources */,
 				263EF10522F7EB0900D44499 /* Frameworks */,
 				263EF10622F7EB0900D44499 /* Resources */,
+				6776D3FFFFDA8BC2A0E41936 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6776D3FFFFDA8BC2A0E41936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureTest/Pods-AzureTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzureTest/Pods-AzureTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5CF50BA6912F16926A3EEDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzureTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		263EF10422F7EB0900D44499 /* Sources */ = {
@@ -280,6 +354,7 @@
 		};
 		263EF11B22F7EB0900D44499 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251EFFC7CD2EEDA1712E23DE /* Pods-AzureTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +373,7 @@
 		};
 		263EF11C22F7EB0900D44499 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95A07F495CC2936B40F28FB /* Pods-AzureTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
