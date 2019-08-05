@@ -22,5 +22,8 @@ steps:
     scheme: 'AzureTest'
     sdk: 'iphoneos'
     configuration: 'Release'
-#    xcodeVersion: '10'
     xcWorkspacePath: 'AzureTest.xcworkspace'
+    packageApp: true
+    archivePath: output/$(SDK)/$(Configuration)
+    exportPath: 'output/$(SDK)/$(Configuration)' # Optional
+
