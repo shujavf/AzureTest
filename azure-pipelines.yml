@@ -19,7 +19,7 @@ trigger:
 
 
 pool:
-  vmImage: 'macos-latest'
+  vmImage: 'macOS-10.13'
 
 steps:
 - script: echo Hello, world!
