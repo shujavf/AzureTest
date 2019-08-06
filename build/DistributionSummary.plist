@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AzureTest.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A5FCD7620BF1DAEAB90E88C8595293F69DA6E3A7</string>
+				<key>dateExpires</key>
+				<string>05/08/2020</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>N5VQ54MN2X.com.VF.azuretest</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>N5VQ54MN2X</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>N5VQ54MN2X.com.VF.azuretest</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>AzureTest.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>d0fab7af-13d5-4e5a-8e97-dc722b800fe3</string>
+				<key>name</key>
+				<string>VirtualForce_AdHoc_Profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>N5VQ54MN2X</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
