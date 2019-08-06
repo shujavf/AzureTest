@@ -23,7 +23,4 @@ steps:
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: 'AzureTest.xcworkspace'
-    packageApp: true
-    archivePath: output/$(SDK)/$(Configuration)
-    exportPath: 'output/$(SDK)/$(Configuration)' # Optional
 
